@@ -1,10 +1,12 @@
 {
-  "version": "1.5.6",
-  "docker_image": "envyafish/immortal:1.5.6",
+  "version": "1.5.7",
+  "docker_image": "envyafish/immortal:1.5.7",
   "docker_url": "https://hub.docker.com/r/envyafish/immortal",
   "changelog_url": "https://github.com/envyafish/Immortal/blob/master/CHANGELOG.md",
   "notes": [
-    "🤖 优化 Agent 智能体能力，进一步提升交互响应与处理体验。",
-    "📝 调整通知模板结构，推送字段更统一、展示更清晰。"
+    "🛠️ 修复推送消息中图片缺失的 BUG",
+    "📝 取消任务推送的标题模板",
+    "🔒 对 TG markdownv2 文本的部分特殊字符进行转义，防止推送失败",
+    "🤖 解决 Agent 中重复角色导致部分模型参数错误的异常"
   ]
 }

@@ -1,6 +1,16 @@
 {
-  "latest": "1.5.6",
+  "latest": "1.5.7",
   "items": [
+    {
+      "version": "1.5.7",
+      "docker_image": "envyafish/immortal:1.5.7",
+      "notes": [
+        "🛠️ 修复推送消息中图片缺失的 BUG",
+        "📝 取消任务推送的标题模板",
+        "🔒 对 TG markdownv2 文本的部分特殊字符进行转义，防止推送失败",
+        "🤖 解决 Agent 中重复角色导致部分模型参数错误的异常"
+      ]
+    },
     {
       "version": "1.5.6",
       "docker_image": "envyafish/immortal:1.5.6",
