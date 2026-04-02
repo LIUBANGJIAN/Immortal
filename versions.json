@@ -1,6 +1,16 @@
 {
-  "latest": "1.5.7",
+  "latest": "1.5.8",
   "items": [
+    {
+      "version": "1.5.8",
+      "docker_image": "envyafish/immortal:1.5.8",
+      "notes": [
+        "📋 推送模板新增在库状态字段",
+        "🎨 调整榜单筛选器按钮的位置",
+        "✨ 过滤器、排序器新增新模型",
+        "⚡ 优化媒体库在库查询逻辑，新增命中缓存"
+      ]
+    },
     {
       "version": "1.5.7",
       "docker_image": "envyafish/immortal:1.5.7",

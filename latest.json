@@ -1,12 +1,12 @@
 {
-  "version": "1.5.7",
-  "docker_image": "envyafish/immortal:1.5.7",
+  "version": "1.5.8",
+  "docker_image": "envyafish/immortal:1.5.8",
   "docker_url": "https://hub.docker.com/r/envyafish/immortal",
   "changelog_url": "https://github.com/envyafish/Immortal/blob/master/CHANGELOG.md",
   "notes": [
-    "🛠️ 修复推送消息中图片缺失的 BUG",
-    "📝 取消任务推送的标题模板",
-    "🔒 对 TG markdownv2 文本的部分特殊字符进行转义，防止推送失败",
-    "🤖 解决 Agent 中重复角色导致部分模型参数错误的异常"
+    "📋 推送模板新增在库状态字段",
+    "🎨 调整榜单筛选器按钮的位置",
+    "✨ 过滤器、排序器新增新模型",
+    "⚡ 优化媒体库在库查询逻辑，新增命中缓存"
   ]
 }
